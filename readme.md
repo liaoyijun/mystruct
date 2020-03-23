@@ -35,5 +35,6 @@ GLOBAL OPTIONS:
 ## example
 
 ```
-
+$ mysql root@127.0.0.1:(none)>use my_database
+$ mysql root@127.0.0.1:(my_database)>my_table1,my_table2
 ```
