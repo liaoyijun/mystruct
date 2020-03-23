@@ -7,4 +7,4 @@ require (
 	github.com/urfave/cli/v2 v2.2.0
 )
 
-replace mystruct => github.com/Farmyard/mystruct v0.0.0 // indirect
+replace mystruct/gormat => github.com/Farmyard/mystruct/gormat v0.0.0 // indirect
