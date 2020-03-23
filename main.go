@@ -4,9 +4,10 @@ import (
 	"bufio"
 	"fmt"
 	"log"
-	"mystruct/gormat"
 	"os"
 	"strings"
+
+	"mystruct/gormat"
 
 	"github.com/urfave/cli/v2"
 )
