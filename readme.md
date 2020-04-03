@@ -1,6 +1,10 @@
 ## Quick Start
 
 ```
+go get -v github.com:Farmyard/mystruct
+```
+或
+```
 $ git clone git@github.com:Farmyard/mystruct.git mystruct
 $ cd mystruct
 $ go install

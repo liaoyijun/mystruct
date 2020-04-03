@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"mystruct/gormat"
+	"github.com/Farmyard/mystruct/gormat"
 
 	"github.com/urfave/cli/v2"
 )
