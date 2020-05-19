@@ -142,7 +142,7 @@ func (s *Demo) Columns(table string) (tableColumns map[string][]column, err erro
 		// 字段首字母本身大写, 是否需要删除tag
 		jsonTag = camelCase(jsonTag)
 
-		col.Tag = fmt.Sprintf("`gorm:\"%s\" json:\"%s\"`", col.Tag, jsonTag)
+		col.Tag = fmt.Sprintf("`gorm:\"%s\" json:\"%s\"`", col.Tag, col.Tag)
 
 		if _, ok := tableColumns[col.TableName]; !ok {
 			tableColumns[col.TableName] = []column{}

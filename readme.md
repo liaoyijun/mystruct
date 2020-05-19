@@ -15,7 +15,7 @@ $ go install
 ```
 $ mystruct --help
 NAME:
-   mystruct - A golang convenient converter supports Database to Struct
+   mystruct - From database generate go struct
 
 USAGE:
    mystruct [GLOBAL OPTIONS] [DATABASE]
